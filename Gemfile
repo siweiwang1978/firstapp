@@ -41,6 +41,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'gibbon'
 gem 'activerecord-tableless'
+gem 'compass-rails', '~> 1.1.2'
 gem 'figaro'
 gem 'high_voltage'
 gem 'simple_form'
