@@ -1,5 +1,6 @@
 == README
 
+Just testing a checkout checkin for git
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
