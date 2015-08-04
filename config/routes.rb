@@ -53,4 +53,11 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+
+
+  FirstApp::Application.routes.draw do
+       root to: 'visitors#new'
+   end
+
 end
