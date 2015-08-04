@@ -45,9 +45,11 @@ gem 'compass-rails', '~> 1.1.2'
 gem 'figaro'
 gem 'high_voltage'
 gem 'simple_form'
-gem 'zurb-foundation'
+#gem 'zurb-foundation'
 gem 'google_drive'
+gem 'rails_layout'
 
+gem 'foundation-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

@@ -2,3 +2,7 @@
 <p>WElcome to the home of <%= @owner.name %>.</p>
 <p>I was born on <<%= @owner.birthdate %>. </p>
 <p>Only <%= @owner.countdown %> day until my birthday!</p>
+
+flash.each do |key, value|
+puts '<div class="' + key + '">' + value + '</div>'
+end
